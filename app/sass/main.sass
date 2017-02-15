@@ -1,0 +1,155 @@
+@import ../../bourbon/bourbon
+@import fonts
+@import libs
+@import vars
+@import settings
+
+.s-dark
+  background-color: lighten($color, 20%)
+  color: rgba($white, .7)
+
+.road
+  background: url(../img/road.png) repeat-x left top
+  height: 50px
+
+.main-head
+  color: $white
+  position: relative
+  min-height: 100vh
+  background-size: cover
+  .top-line
+    padding: 20px 0
+    .top-logo
+      width: 150px
+    .top-contacts
+      a
+        color: $white
+      .fa
+        font-size: 22px
+        width: 15px
+        margin-right: 8px
+        color: $accent
+  .header-content
+    margin-top: 10%
+    .header-adv
+      margin-top: 30%
+      .adv-item
+        text-align: center
+        h3
+          margin: 0
+          font-size: em(24px)
+        p
+          font-size: em(19px)
+          margin-top: 12px
+        span
+          font-size: em(36px)
+          color: $accent
+
+.s-service
+  .service-item
+    &:hover
+      .img-svg
+        border: 3px solid $accent
+        transform: scale(1.2)
+        path
+          fill: $accent
+      h3
+        color: $accent
+    .img-svg
+      box-sizing: content-box
+      width: 100px
+      height: auto
+      border: 3px solid transparent
+      border-radius: 50%
+      padding: 10px
+      +mt(.5s)
+
+.s-advantages
+  h2
+    color: $color
+  h3
+    margin: 0 0 12px
+  ul
+    padding: 0
+    list-style-type: none
+    text-align: left
+    li
+      display: block
+      font-size: em(15px)
+      margin-bottom: 7px
+      .fa
+        font-size: 17px
+        color: $accent
+        width: 15px
+        margin-right: 7px
+  img
+    height: 250px
+
+.s-works
+  .col-sm-3
+    padding: 0 5px
+  .works-item
+    margin-bottom: 10px
+
+.s-partners
+  h2
+    color: $color
+
+.carousel-part
+  position: relative
+  .responsive-img
+    max-width: 70%
+    max-height: 100px
+    display: inline-block
+  .owl-nav
+    position: absolute
+    width: 100%
+    top: 0
+    > div
+      position: absolute
+      font-size: 34px
+      line-height: 38px
+      color: lighten($color, 50%)
+      +mt(.25s)
+      &:hover
+        color: $accent
+      &.owl-prev
+        left: -25px
+      &.owl-next
+        right: 0
+
+.contacts-form
+  padding: 20px 30px
+  border: 1px solid rgba($white, 20%)
+  border-radius: 8px
+  margin-bottom: 50px
+  .contact-form-head
+    text-align: center
+    h3
+      color: $white
+      margin-bottom: 15px
+      p
+        color: $white
+        margin-bottom: 40px
+  input, textarea
+    display: block
+    width: 100%
+    border: none
+    outline: none
+    background-color: transparent
+    color: $white
+    border-bottom: 1px solid rgba($white, 20%)
+    border-radius: 5px
+    margin-bottom: 20px
+    padding: 10px 36px
+  .button
+    margin-top: 20px
+
+.contacts-text
+  p
+    margin-bottom: 15px
+    font-size: em(18px)
+    .fa
+      margin-right: 5px
+      color: $accent
+      font-size: 18px
