@@ -21,6 +21,7 @@
     padding: 20px 0
     .top-logo
       width: 150px
+      margin-left: 40px
     .top-contacts
       a
         color: $white
@@ -31,8 +32,38 @@
         color: $accent
   .header-content
     margin-top: 10%
+    p
+      font-size: em(21px)
+    .top-form
+      padding: 10px 10px 20px
+      border: 2px solid $accent
+      border-radius: 6px
+      background-color: rgba($color, .75)
+      .form-header
+        text-align: center
+        margin-bottom: 15px
+        border-top-left-radius: 5px
+        border-top-right-radius: 5px
+        padding: 15px 0
+        background-color: $accent
+      label
+        display: block
+        span
+          text-align: center
+          display: block
+          margin-bottom: 7px
+          color: rgba($white, .65)
+        input
+          display: block
+          background-color: rgba($color, .6)
+          border: 1px solid $accent
+          border-radius: 4px
+          width: 100%
+          padding: 10px 20px
+          outline: none
+          margin-bottom: 25px
     .header-adv
-      margin-top: 30%
+      margin-top: 10%
       .adv-item
         text-align: center
         h3
@@ -120,7 +151,7 @@
 
 .contacts-form
   padding: 20px 30px
-  border: 1px solid rgba($white, 20%)
+  border: 1px solid rgba($accent, 20%)
   border-radius: 8px
   margin-bottom: 50px
   .contact-form-head
@@ -138,7 +169,7 @@
     outline: none
     background-color: transparent
     color: $white
-    border-bottom: 1px solid rgba($white, 20%)
+    border-bottom: 1px solid rgba($accent, 20%)
     border-radius: 5px
     margin-bottom: 20px
     padding: 10px 36px
@@ -148,7 +179,7 @@
 .contacts-text
   p
     margin-bottom: 15px
-    font-size: em(18px)
+    font-size: em(15px)
     .fa
       margin-right: 5px
       color: $accent
