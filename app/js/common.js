@@ -1,7 +1,7 @@
 $(function() {
 
     //Parallax
-    $(".main-head").parallax({imageSrc: './img/bg.jpg'});
+    // $(".header-content").parallax({imageSrc: './img/bg.jpg'});
 
     //Replace all SVG images with inline SVG
     $('img.img-svg').each(function () {
@@ -55,7 +55,7 @@ $(function() {
                     "font-size": "3em",
                     numberStep: comma_separator_number_step
                 },
-                2000);
+                3000);
         });
         this.destroy();
     }, {

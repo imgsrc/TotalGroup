@@ -16,7 +16,7 @@
   <link rel="icon" type="image/png" href="./img/favicon/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="./img/favicon/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="./img/favicon/manifest.json">
-  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg">
   <meta name="theme-color" content="#ffffff">
   
   <link rel="stylesheet" href="css/main.min.css">
@@ -28,7 +28,7 @@
 <header class="main-head">
   <div class="container">
     <div class="row">
-      <div class="top-line">
+      <div class="top-line clearfix">
         
         <div class="col-sm-3">
           <div class="top-logo">
@@ -37,8 +37,9 @@
         </div><!-- ./col-sm-3 -->
         
         <div class="col-md-6 col-sm-5">
-          <!--Text here-->
-        </div><!-- ./col-sm-6 -->
+          <h3>Перевозка любых грузов по России</h3>
+          <p>100% ответственность за груз и качество оказываемых услуг!</p>
+        </div><!-- ./col-md-6 col-sm-5 -->
         
         <div class="col-md-3 col-sm-4">
           <div class="top-contacts">
@@ -46,12 +47,13 @@
             <p><i class="fa fa-mobile-phone"></i> <a href="tel:+79276884438">8 (927) 688-44-38</a></p>
             <p><i class="fa fa-envelope-o"></i> <a href="mailto:total.grupp@mail.ru">total.grupp@mail.ru</a></p>
           </div><!-- ./top-contacts -->
-        </div><!-- ./col-sm-3 -->
+        </div><!-- ./col-md-3 col-sm-4 -->
       
       </div><!-- ./top-line -->
     </div><!-- ./row -->
-    
-    <div class="header-content">
+  </div><!-- ./container -->
+  <div class="header-content">
+    <div class="container">
       <div class="row">
         <div class="col-sm-8">
           <h1>Перевозка любых грузов по России</h1>
@@ -61,10 +63,10 @@
           <form class="top-form">
             
             <!-- Hidden Required Fields -->
-            		<input type="hidden" name="project_name" value="Total Group">
-            		<input type="hidden" name="admin_email" value="total.grupp@mail.ru">
-            		<input type="hidden" name="form_subject" value="Заявка на расчёт стоимости">
-            		<!-- END Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Total Group">
+            <input type="hidden" name="admin_email" value="total.grupp@mail.ru">
+            <input type="hidden" name="form_subject" value="Заявка на расчёт стоимости">
+            <!-- END Hidden Required Fields -->
             
             <div class="form-header">
               <h3>Заказать расчёт стоимости</h3>
@@ -83,41 +85,40 @@
           </form>
         </div><!-- ./col-sm-4 -->
       </div><!-- ./row -->
-      
-      <div class="header-adv">
-        
-        <div class="row">
-          
-          <div class="col-sm-4">
-            <div class="adv-item">
-              <h3>Более</h3>
-              <span data-count="68"></span>
-              <p>направлений доставки</p>
-            </div><!-- ./adv-item -->
-          </div><!-- ./col-sm-4 -->
-          
-          <div class="col-sm-4">
-            <div class="adv-item">
-              <h3>Выполнено</h3>
-              <span data-count="740"></span>
-              <p>перевозок по России</p>
-            </div><!-- ./adv-item -->
-          </div><!-- ./col-sm-4 -->
-          
-          <div class="col-sm-4">
-            <div class="adv-item">
-              <h3>Пройдено</h3>
-              <span data-count="1751892"></span>
-              <p>километров дорог</p>
-            </div><!-- ./adv-item -->
-          </div><!-- ./col-sm-4 -->
-        
-        </div><!-- ./row -->
-      
-      </div><!-- ./header-adv -->
+    </div><!-- ./container -->
     
-    </div><!-- ./header-content -->
-  </div><!-- ./container -->
+    <div class="header-adv">
+      
+      <div class="row">
+        
+        <div class="col-sm-4">
+          <div class="adv-item">
+            <h3>Более</h3>
+            <span data-count="68"></span>
+            <p>направлений доставки</p>
+          </div><!-- ./adv-item -->
+        </div><!-- ./col-sm-4 -->
+        
+        <div class="col-sm-4">
+          <div class="adv-item">
+            <h3>Выполнено</h3>
+            <span data-count="740"></span>
+            <p>перевозок по России</p>
+          </div><!-- ./adv-item -->
+        </div><!-- ./col-sm-4 -->
+        
+        <div class="col-sm-4">
+          <div class="adv-item">
+            <h3>Пройдено</h3>
+            <span data-count="1751892"></span>
+            <p>километров дорог</p>
+          </div><!-- ./adv-item -->
+        </div><!-- ./col-sm-4 -->
+      
+      </div><!-- ./row -->
+    </div><!-- ./header-adv -->
+  
+  </div><!-- ./header-content -->
 </header><!-- ./main-head -->
 <div class="road"></div>
 <section class="s-service s-dark">
