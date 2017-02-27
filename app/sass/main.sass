@@ -13,17 +13,20 @@
   height: 50px
 
 .main-head
+  min-height: 100vh
+  background: url("../img/bg2.jpg") no-repeat center top
+  background-size: cover
   color: $white
   position: relative
   .top-line
-    color: $color
+    color: $white
     padding: 20px 0
     .top-logo
       width: 150px
       margin-left: 40px
     .top-contacts
       p
-        color: $color
+        color: $white
         font-family: "Exo2Bold", serif
         font-size: em(18px)
       .fa
@@ -32,10 +35,7 @@
         margin-right: 8px
         color: $accent
   .header-content
-    min-height: 70vh
-    background: url("../img/bg.jpg") no-repeat center top
-    background-size: cover
-    padding: 7% 0 3%
+    padding: 6% 0 60px
     p
       font-size: em(19px)
     .top-form

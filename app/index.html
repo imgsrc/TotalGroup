@@ -54,6 +54,7 @@
   </div><!-- ./container -->
   <div class="header-content">
     <div class="container">
+      
       <div class="row">
         <div class="col-sm-8">
           <h1>Перевозка любых грузов по России</h1>
@@ -85,39 +86,38 @@
           </form>
         </div><!-- ./col-sm-4 -->
       </div><!-- ./row -->
-    </div><!-- ./container -->
-    
-    <div class="header-adv">
       
       <div class="row">
+        <div class="header-adv">
+          
+          <div class="col-sm-4">
+            <div class="adv-item">
+              <h3>Более</h3>
+              <span data-count="68"></span>
+              <p>направлений доставки</p>
+            </div><!-- ./adv-item -->
+          </div><!-- ./col-sm-4 -->
+          
+          <div class="col-sm-4">
+            <div class="adv-item">
+              <h3>Выполнено</h3>
+              <span data-count="740"></span>
+              <p>перевозок по России</p>
+            </div><!-- ./adv-item -->
+          </div><!-- ./col-sm-4 -->
+          
+          <div class="col-sm-4">
+            <div class="adv-item">
+              <h3>Пройдено</h3>
+              <span data-count="1751892"></span>
+              <p>километров дорог</p>
+            </div><!-- ./adv-item -->
+          </div><!-- ./col-sm-4 -->
         
-        <div class="col-sm-4">
-          <div class="adv-item">
-            <h3>Более</h3>
-            <span data-count="68"></span>
-            <p>направлений доставки</p>
-          </div><!-- ./adv-item -->
-        </div><!-- ./col-sm-4 -->
-        
-        <div class="col-sm-4">
-          <div class="adv-item">
-            <h3>Выполнено</h3>
-            <span data-count="740"></span>
-            <p>перевозок по России</p>
-          </div><!-- ./adv-item -->
-        </div><!-- ./col-sm-4 -->
-        
-        <div class="col-sm-4">
-          <div class="adv-item">
-            <h3>Пройдено</h3>
-            <span data-count="1751892"></span>
-            <p>километров дорог</p>
-          </div><!-- ./adv-item -->
-        </div><!-- ./col-sm-4 -->
-      
+        </div><!-- ./header-adv -->
       </div><!-- ./row -->
-    </div><!-- ./header-adv -->
-  
+    
+    </div><!-- ./container -->
   </div><!-- ./header-content -->
 </header><!-- ./main-head -->
 <div class="road"></div>
@@ -398,10 +398,17 @@
           <input type="hidden" name="admin_email" value="total.grupp@mail.ru">
           <input type="hidden" name="form_subject" value="Новый запрос с сайта">
           <!-- END Hidden Required Fields -->
+  
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" name="Имя" placeholder="Ваше имя..." required>
+            </div><!-- ./col-md-6 -->
+            <div class="col-md-6">
+              <input type="tel" name="Телефон" placeholder="Ваш телефон..." required>
+            </div><!-- ./col-md-6 -->
+          </div><!-- ./row -->
           
-          <input type="text" name="Имя" placeholder="Ваше имя..." required>
-          <input type="tel" name="Телефон" placeholder="Ваш телефон..." required>
-          <textarea name="Сообщение" rows="5" placeholder="Ваше сообщение..." required></textarea>
+          <textarea name="Сообщение" rows="2" placeholder="Ваше сообщение..." required></textarea>
           <div class="text-center">
             <button class="button">Отправить</button>
           </div><!-- ./text-center -->
