@@ -1,7 +1,12 @@
 $(function() {
 
     //Parallax
-    // $(".header-content").parallax({imageSrc: './img/bg.jpg'});
+    $("header").parallax({imageSrc: './img/bg.jpg'});
+
+    var wow = new WOW({
+        offset: 100
+    });
+    wow.init();
 
     //Replace all SVG images with inline SVG
     $('img.img-svg').each(function () {

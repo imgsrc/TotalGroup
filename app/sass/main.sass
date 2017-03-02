@@ -14,21 +14,28 @@
 
 .main-head
   min-height: 100vh
-  background: url("../img/bg2.jpg") no-repeat center top
+  //background: url("../img/bg.jpg") no-repeat center top
   background-size: cover
   color: $white
   position: relative
   .top-line
     color: $white
     padding: 20px 0
+    background-color: rgba($white, .2)
+    box-shadow: 0 3px 10px rgba($color, .4)
     .top-logo
       width: 150px
       margin-left: 40px
     .top-contacts
-      p
+      p.phone
         color: $white
         font-family: "Exo2Bold", serif
-        font-size: em(18px)
+        font-size: em(24px)
+      p
+        a
+          color: rgba($white, .8)
+        strong
+          color: rgba($accent, .8)
       .fa
         font-size: 22px
         width: 15px
@@ -67,16 +74,15 @@
           outline: none
           margin-bottom: 25px
     .header-adv
-      padding: 80px 0 0
+      padding: 60px 0 0
       .adv-item
         text-align: center
-        margin-bottom: 20px
         h3
-          margin: 0
+          margin-bottom: 10px
           font-size: em(24px)
         p
           font-size: em(19px)
-          margin-top: 12px
+          margin-top: 10px
         span
           font-size: em(36px)
           color: $accent
